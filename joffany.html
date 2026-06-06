@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joffany Eye Care</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar section-content">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">👁️ Joffany Eye Care</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#reviews" class="nav-link">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#appointment" class="nav-link">Appointment</a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Clear Vision</h2>
+            <h3 class="subtitle">Expert Eye Care You Can Trust</h3>
+            <p class="description">
+              Welcome to Joffany Eye Care — where advanced technology meets
+              compassionate care to protect and enhance your vision.
+            </p>
+            <div class="buttons">
+              <a href="#appointment" class="button order-now"
+                >Book Appointment</a
+              >
+              <a href="#about" class="button contact-us">Learn More</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img
+              src="images/hero-section.png"
+              alt="Eye Care"
+              class="hero-image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="images/about-us.jpg" alt="About Us" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">
+              At Joffany Eye Care, we are dedicated to providing world-class eye
+              care services in a comfortable and modern environment. Our
+              experienced ophthalmologists and optometrists use the latest
+              technology to ensure your eyes receive the best possible care.
+            </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-x-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="menu-section" id="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img
+                src="images/cupofcoffee.png"
+                alt="Eye Examination"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Comprehensive Eye Exam</h3>
+                <p class="text">
+                  Thorough vision testing and eye health evaluation.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="images/coffeecream.png"
+                alt="Eyeglasses"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Eyeglasses & Frames</h3>
+                <p class="text">
+                  Wide range of stylish and high-quality frames.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="images/drinks.png"
+                alt="Contact Lenses"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Contact Lenses</h3>
+                <p class="text">
+                  Fitting and prescription for all types of lenses.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="images/burger.png"
+                alt="Cataract Surgery"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Cataract Surgery</h3>
+                <p class="text">
+                  Advanced surgical solutions for clear vision.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="images/glaucoma-care.png"
+                alt="Glaucoma Management"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Glaucoma Management</h3>
+                <p class="text">Early detection and ongoing treatment.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="images/pediatric-eye-care.png"
+                alt="Pediatric Eye Care"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Pediatric Eye Care</h3>
+                <p class="text">Specialized care for children's vision.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Reviews -->
+      <section class="testimonials-section" id="reviews">
+        <h2 class="section-title">Patient Reviews</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="images/customer1.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">John Doe</h3>
+                  <p class="feedback"></p>
+                    "Best eye clinic I've ever visited. My vision improved
+                    dramatically after treatment."
+                  </p>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="images/customer2.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Jane Smith</h3>
+                  <p class="feedback">
+                    "Professional staff and excellent service. Highly
+                    recommended!"
+                  </p>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="images/customer3.jpg"
+                    alt="User"
+                    class="user-image"
+                  />
+                  <h3 class="name">Alice Johnson</h3>
+                  <p class="feedback">
+                    "Got my new glasses same day. The team is amazing."
+                  </p>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                src="images/hotcoffee.jpg"
+                alt="Clinic"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/eggs&sausages.jpg"
+                alt="Equipment"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/smoothies.jpg"
+                alt="Staff"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/bread&tea.jpg"
+                alt="Patients"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/peas.jpg"
+                alt="Waiting Area"
+                class="gallery-image"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="images/tea&bagle.jpg"
+                alt="Surgery"
+                class="gallery-image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Book Appointment -->
+      <section class="contact-section" id="appointment">
+        <h2 class="section-title">Book Appointment</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>Your Clinic Address, Lagos</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@joffanyeyecare.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>+234 813 583 4714</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-clock"></i>
+              <p>Saturday: 10:00 AM - 2:00 PM</p>
+            </li>
+          </ul>
+
+          <form
+            action="https://formsubmit.co/temitayoalonge24@gmail.com"
+            method="POST"
+            class="contact-form"
+            onsubmit="handleFormSubmit(event)"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Full Name"
+              class="form-input"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              class="form-input"
+              required
+            />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number (whatsapp preferred)"
+              class="form-input"
+              required
+            />
+
+            <select name="service" class="form-input" required>
+              <option value="" disabled selected>
+                Select Service You Want
+              </option>
+              <option value="Comprehensive Eye Exam">
+                Comprehensive Eye Exam
+              </option>
+              <option value="Eyeglasses & Frames">Eyeglasses & Frames</option>
+              <option value="Contact Lenses">Contact Lenses</option>
+              <option value="Cataract Surgery">Cataract Surgery</option>
+              <option value="Glaucoma Management">Glaucoma Management</option>
+              <option value="Pediatric Eye Care">Pediatric Eye Care</option>
+            </select>
+
+            <input
+              type="date"
+              name="preferred_date"
+              id="preferred_date"
+              class="form-input"
+              required
+            />
+
+            <textarea
+              name="message"
+              placeholder="Preferred time or additional message"
+              class="form-input"
+              rows="5"
+            ></textarea>
+
+            <!-- Hidden Fields -->
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Appointment Request - Jofanny Eye Care"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+
+            <button type="submit" class="submit-button">
+              Book Appointment
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2026 Jofanny Eye Care</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
